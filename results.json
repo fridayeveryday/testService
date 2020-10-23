@@ -1,0 +1,69 @@
+{
+    "subject": {
+        "id": 1,
+        "name": "ALM"
+    },
+    "submittedResultQuestion": [
+        {
+            "id": 1,
+            "subject": {
+                "id": 1,
+                "name": "ALM"
+            },
+            "question": "Какие виды автоматов вы знаете",
+            "answerChoiceList": [
+                {
+                    "id": 1,
+                    "answer": "Мили"
+                },
+                {
+                    "id": 2,
+                    "answer": "Мурка"
+                },
+                {
+                    "id": 3,
+                    "answer": "Муира"
+                },
+                {
+                    "id": 4,
+                    "answer": "Мира"
+                }
+            ],
+            "rightAnswers": [
+                "Мили"
+            ],
+            "userAnswer": "Мили"
+        },
+        {
+            "id": 2,
+            "subject": {
+                "id": 1,
+                "name": "ALM"
+            },
+            "question": "Какие виды переходов Вы знаете",
+            "answerChoiceList": [
+                {
+                    "id": 5,
+                    "answer": "Условные"
+                },
+                {
+                    "id": 6,
+                    "answer": "Простые"
+                },
+                {
+                    "id": 7,
+                    "answer": "Сложные"
+                },
+                {
+                    "id": 8,
+                    "answer": "Безуспешные"
+                }
+            ],
+            "rightAnswers": [
+                "Условные"
+            ],
+            "userAnswer": "Простые"
+        }
+    ],
+    "rating": 50
+}
