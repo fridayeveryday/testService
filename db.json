@@ -1,5 +1,5 @@
 {
-    answers: {
+    "answers": {
     {
         "subject": {
             "id": 1,
@@ -53,7 +53,7 @@
         ]
     }
 },
-result: {
+"result": {
     {
         "subject": {
             "id": 1,
