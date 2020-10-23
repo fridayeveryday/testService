@@ -1,6 +1,5 @@
 {
-    "test": 
-    {
+    "test": {
         "subject": {
             "id": 1,
             "name": "ALM"
@@ -52,18 +51,17 @@
             }
         ]
     },
-    "answers":[
-    {
-        "questionId": 1,
-        "answerId": 1
-    },
-    {
-        "questionId": 2,
-        "answerId": 6
-    }
-],
-"result": 
-    {
+    "answers": [
+        {
+            "questionId": 1,
+            "answerId": 1
+        },
+        {
+            "questionId": 2,
+            "answerId": 6
+        }
+    ],
+    "result": {
         "subject": {
             "id": 1,
             "name": "ALM"
