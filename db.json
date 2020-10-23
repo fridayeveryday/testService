@@ -1,4 +1,5 @@
-answers: {
+{
+    answers: {
     {
         "subject": {
             "id": 1,
@@ -122,4 +123,5 @@ result: {
         ],
         "rating": 50
     }
+}
 }
