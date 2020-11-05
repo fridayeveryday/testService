@@ -1,92 +1,94 @@
 {
     "test": {
-    "subject": "АЛМ",
-    "questions": [
-        {
-            "id": 7,
-            "question": "Какие виды автоматов Вы знаете?",
-            "answers": [
-                "Мили",
-                "Мура",
-                "Мира",
-                "Мули"
-            ]
-        },
-        {
-            "id": 5,
-            "question": "Какие виды переходов Вы знаете?",
-            "answers": [
-                "Простые",
-                "Сложные",
-                "Услонвные",
-                "Безусловные"
-            ]
-        }
-    ]
-},
+        "subject": "АЛМ",
+        "questions": [
+            {
+                "id": 7,
+                "question": "Какие виды автоматов Вы знаете?",
+                "answers": [
+                    "Мили",
+                    "Мура",
+                    "Мира",
+                    "Мули"
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Какие виды переходов Вы знаете?",
+                "answers": [
+                    "Простые",
+                    "Сложные",
+                    "Услонвные",
+                    "Безусловные"
+                ]
+            }
+        ]
+    },
     "answers": [
-  {
-    "answers": [
-      "Мили", "Мура"
-    ],
-    "questionId": 1
-  },
-   {
-    "answers": [
-      "Условные"
-    ],
-    "questionId": 2
-  }
-],
-    "result":{
-    "subject": "АЛМ",
-    "submittedResultQuestion": [
         {
-            "id": 1,
-            "question": "Какие виды автоматов Вы знаете?",
             "answers": [
-                "Мили",
-                "Мура",
-                "Мира",
-                "Мули"
-            ],
-            "rightAnswers": [
                 "Мили",
                 "Мура"
             ],
-            "complexity": 3.0,
-            "userAnswer": [
-                {
-                    "answer": "Мили",
-                    "right": true
-                },
-                {
-                    "answer": "Мура",
-                    "right": true
-                }
-            ]
+            "questionId": 1
         },
         {
-            "id": 2,
-            "question": "Какие виды переходов Вы знаете?",
             "answers": [
-                "Простые",
-                "Сложные",
-                "Услонвные",
-                "Безусловные"
+                "Условные"
             ],
-            "rightAnswers": [
-                "Услонвные",
-                "Безусловные"
-            ],
-            "complexity": 3.0,
-            "userAnswer": [
-                {
-                    "answer": "Условные",
-                    "right": false
-                }
-            ]
+            "questionId": 2
         }
     ],
-    "rating": 50
+    "result": {
+        "subject": "АЛМ",
+        "submittedResultQuestion": [
+            {
+                "id": 1,
+                "question": "Какие виды автоматов Вы знаете?",
+                "answers": [
+                    "Мили",
+                    "Мура",
+                    "Мира",
+                    "Мули"
+                ],
+                "rightAnswers": [
+                    "Мили",
+                    "Мура"
+                ],
+                "complexity": 3.0,
+                "userAnswer": [
+                    {
+                        "answer": "Мили",
+                        "right": true
+                    },
+                    {
+                        "answer": "Мура",
+                        "right": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Какие виды переходов Вы знаете?",
+                "answers": [
+                    "Простые",
+                    "Сложные",
+                    "Услонвные",
+                    "Безусловные"
+                ],
+                "rightAnswers": [
+                    "Услонвные",
+                    "Безусловные"
+                ],
+                "complexity": 3.0,
+                "userAnswer": [
+                    {
+                        "answer": "Условные",
+                        "right": false
+                    }
+                ]
+            }
+        ],
+        "rating": 50
+    }
 }
