@@ -1,89 +1,104 @@
 {
-    "test": {
-        "subject": "АЛМ",
-        "questions": [
-            {
-                "id": 7,
-                "question": "Какие виды автоматов Вы знаете?",
-                "answers": [
-                    "Мили",
-                    "Мура",
-                    "Мира",
-                    "Мули"
-                ]
-            },
-            {
-                "id": 5,
-                "question": "Какие виды переходов Вы знаете?",
-                "answers": []
-            }
-        ]
-    },
-    "answers": [
-        {
-            "answers": [
-                "Мили",
-                "Мура"
+   "test":{
+      "subject":"АЛМ",
+      "questions":[
+         {
+            "id":1,
+            "question":"Какие виды автоматов Вы знаете?",
+            "answers":[
+               "Мили",
+               "Мура",
+               "Мира",
+               "Мули"
+            ]
+         },
+         {
+            "id":2,
+            "question":"Какие виды переходов Вы знаете?",
+            "answers":[
+               "Простые",
+               "Сложные",
+               "Условные",
+               "Безусловные"
+            ]
+         },
+         {
+            "id":3,
+            "question":"У какого автомата состояния проставляются после операторных вершин?",
+            "answers":[
+               
             ],
-            "questionId": 1
-        },
-        {
-            "answers": [
-                "Условные"
+            "rightAnswers":[
+               "Мили"
+            ]
+         }
+      ]
+   },
+   "answers":[
+      {
+         "answers":[
+            "Мили",
+            "Мура"
+         ],
+         "questionId":1
+      },
+      {
+         "answers":[
+            "Условные"
+         ],
+         "questionId":2
+      }
+   ],
+   "result":{
+      "subject":"АЛМ",
+      "submittedResultQuestion":[
+         {
+            "id":1,
+            "question":"Какие виды автоматов Вы знаете?",
+            "answers":[
+               "Мили",
+               "Мура",
+               "Мира",
+               "Мули"
             ],
-            "questionId": 2
-        }
-    ],
-    "result": {
-        "subject": "АЛМ",
-        "submittedResultQuestion": [
-            {
-                "id": 1,
-                "question": "Какие виды автоматов Вы знаете?",
-                "answers": [
-                    "Мили",
-                    "Мура",
-                    "Мира",
-                    "Мули"
-                ],
-                "rightAnswers": [
-                    "Мили",
-                    "Мура"
-                ],
-                "complexity": 3.0,
-                "userAnswer": [
-                    {
-                        "answer": "Мили",
-                        "right": true
-                    },
-                    {
-                        "answer": "Мура",
-                        "right": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "question": "Какие виды переходов Вы знаете?",
-                "answers": [
-                    "Простые",
-                    "Сложные",
-                    "Условные",
-                    "Безусловные"
-                ],
-                "rightAnswers": [
-                    "Условные",
-                    "Безусловные"
-                ],
-                "complexity": 3.0,
-                "userAnswer": [
-                    {
-                        "answer": "Условные",
-                        "right": true
-                    }
-                ]
-            }
-        ],
-        "rating": 50
-    }
+            "rightAnswers":[
+               "Мили",
+               "Мура"
+            ],
+            "complexity":3.0,
+            "userAnswer":[
+               {
+                  "answer":"Мили",
+                  "right":true
+               },
+               {
+                  "answer":"Мура",
+                  "right":true
+               }
+            ]
+         },
+         {
+            "id":2,
+            "question":"Какие виды переходов Вы знаете?",
+            "answers":[
+               "Простые",
+               "Сложные",
+               "Условные",
+               "Безусловные"
+            ],
+            "rightAnswers":[
+               "Условные",
+               "Безусловные"
+            ],
+            "complexity":3.0,
+            "userAnswer":[
+               {
+                  "answer":"Условные",
+                  "right":true
+               }
+            ]
+         }
+      ],
+      "rating":50
+   }
 }
